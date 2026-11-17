@@ -1,0 +1,27 @@
+
+#include <stdio.h>
+
+int main() {
+
+    long int salary;
+    scanf("%ld",&salary);
+    if(salary>0 && salary<10)
+    {
+        printf("Insufficient Earnings\n");
+    }
+    else if(salary>=10 && salary<100)
+    {
+        printf("Very low Earnings\n");
+    }
+    else if(salary>=100 && salary<1000)
+    {
+        printf(" low Earnings\n");
+    }
+    else if(salary>=1000 && salary<10000)
+    {
+        printf("sufficient Earnings\n");
+    }
+    else if(salary>=10000 && salary<=99999)
+    {
+        printf("HIGH EARNINGS\n");
+    }
