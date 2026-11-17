@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+
+int main() {
+int marks;
+    printf("your marks:\n");
+    scanf("%d",&marks);
+    
+    if(marks >= 90)
+    {
+        printf("A+");
+    }
+    else if(80<=marks && marks<=90){
+        printf("A \n");
+    }
+else if(60<= marks && marks<=80){
+        printf("B \n");
+    }
+  else if(40<=marks && marks<=60){
+        printf("c \n");
+    }
+
+    else{
+        printf("...FAIL...\n");
+    }
+
+    
+    
+    return 0;
+}1
+
+
