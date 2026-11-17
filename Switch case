@@ -1,0 +1,35 @@
+include<stdio.h>
+int main()
+{
+  int ch;
+  printf("Order please\n");
+  printf("which BIRYANI would you prefer sir?..\n");
+  printf("1..CHICKEN \n");
+  printf("2..MUTTON \n");
+  printf("3..prawns \n");
+  printf("4..paneer \n");
+  scanf("%d",&ch);
+  switch(ch)
+    {
+      case 1:printf("CHICKEN BIRYANI \n");
+      break;
+      case 2:printf("MUTTON BIRYANI\n");
+      break;
+       case 3:printf("prawns BIRYANI\n");
+      break;
+       case 4:printf("paneer BIRYANI\n");
+      break;
+      default:printf("water bottle\n");
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
